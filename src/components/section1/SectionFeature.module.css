@@ -1,0 +1,15 @@
+.wrapper{
+ text-align:center;
+ width: 28%;
+ min-width: 220px;;
+}
+
+.wrapper h2{
+    font-family: Oswald;
+    font-size: 30px;
+}
+.wrapper p{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
