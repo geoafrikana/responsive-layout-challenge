@@ -1,11 +1,9 @@
 import React from 'react'
-import Features from './Features'
+import FeatureBox from './FeatureBox'
+import RightCSS from './Right.module.css'
 
-function SectionBRight() {
-    const divStyle = {
-        width: '30%',
-       
-    }
+function SectionB() {
+    
     const contents = [
         {
             header: 'Break it down',
@@ -21,10 +19,10 @@ function SectionBRight() {
         },
     ]
   return (
-    <div style={divStyle}>
-{contents.map((content)=><Features header={content.header}  paragraph={content.paragraph} /> )}
+    <div className={RightCSS.wrapper}>
+{contents.map((content)=><FeatureBox key={content.header} header={content.header}  paragraph={content.paragraph} /> )}
     </div>
   )
 }
 
-export default SectionBRight
+export default SectionB

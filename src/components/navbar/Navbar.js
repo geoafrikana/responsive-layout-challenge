@@ -9,7 +9,7 @@ export default function ButtonAppBar() {
     <div className={navCSS.container}>
     <nav className={navCSS.navbar}>
         <div className={navCSS.brandTitle}>
-        <a href="#">CRL</a>
+        <a href="#">GeoAfrikana</a>
         <a href="#" onClick={toggleMenu} className={navCSS.toggleButton}>
           <span className={navCSS.bar}></span>
           <span className={navCSS.bar}></span>

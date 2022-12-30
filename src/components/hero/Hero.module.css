@@ -90,15 +90,18 @@ img{
 
     .heroRight p{
         width: 60%;
+        margin-left: auto;
+        margin-right: auto
     }
     header{
         position: static;
         height: auto;
-        padding-bottom: 60px;;
+        padding-bottom: 60px;
     }
 
     .row{
         flex-direction: column;
+        text-align: center;
     }
 
     .container{

@@ -1,0 +1,20 @@
+.wrapper{
+    color: white;
+   background-color: #2E323F;
+   padding: 5px 20px;
+   margin-top: 20px;
+   font-family: Montserrat;
+     
+}
+
+@media (max-width: 1000px){
+    .wrapper{
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px){
+    .wrapper{
+        width: 100%;
+    }
+}

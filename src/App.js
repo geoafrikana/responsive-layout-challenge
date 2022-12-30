@@ -1,7 +1,8 @@
+import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar'
 import SectionAWrapper from './components/section1/SectionAWrapper';
-import SectionBWrapper from './components/section2/SectionBWrapper';
+import SectionB from './components/section2/SectionB';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
 <Navbar />
 <Hero /> 
 <SectionAWrapper />
-<SectionBWrapper />
+<SectionB />
+<Footer />
 </>
   );
 }

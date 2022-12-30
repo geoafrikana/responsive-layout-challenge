@@ -7,7 +7,7 @@ function SectionAWrapper(props) {
 const contents = [
     {
         header: 'Mobile-first',
-        paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam'
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
     },
     {
         header: 'Efficient',
@@ -25,7 +25,7 @@ const contents = [
     <div className={sectionCSS.row}>
     
         {
-            contents.map((content)=><SectionFeature header={content.header} paragraph={content.paragraph} /> )
+            contents.map((content)=><SectionFeature key={content.header} header={content.header} paragraph={content.paragraph} /> )
         }
     
     </div>
