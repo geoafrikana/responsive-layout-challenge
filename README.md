@@ -6,7 +6,7 @@ This project is the capstone project of Kevin Powell's [Conquering Responsive La
 
 Although, the course uses only HTML and CSS, I chose to take the challenge a little further by building it with ReactJs.
 
-The project is [hosted live on Netlify](https://responsive-react-layout.netlify.com).
+The project is [hosted live on Netlify](https://geoafrikana-crl.netlify.app).
 
 ## How to Run this App
 
